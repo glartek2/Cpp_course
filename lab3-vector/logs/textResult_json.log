@@ -1,0 +1,189 @@
+{
+  "tests": 14,
+  "failures": 2,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-04-17T18:38:26Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FractionTester",
+      "tests": 6,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-04-17T18:38:26Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructionAndGetters_expectedValuesFromConstructorReadableByGetters",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 21,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        },
+        {
+          "name": "settersForMembers_expectedValuesChangesWithoutReduction",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 42,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        },
+        {
+          "name": "fractionMultiplyResultFractionImpossibleForReduction_expectedSimpleMultiplyingWorking",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 57,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        },
+        {
+          "name": "fractionAdditionResultFractionImpossibleForReduction_expectedSimpleAdditionWorking",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 68,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        },
+        {
+          "name": "settingInvalidDenominarrInConstructor_expectedThrow",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 79,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        },
+        {
+          "name": "fractionAdditionWithCommonDenominator_expectedReduction",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/fractionTests.cpp",
+          "line": 90,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "FractionTester"
+        }
+      ]
+    },
+    {
+      "name": "VectorTest",
+      "tests": 8,
+      "failures": 2,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-04-17T18:38:26Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructionAndGetters_expectedValuesFromConstructorReadableByGetters",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 93,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "destructOfNotEmptyVector_expectedMemoryFreedOnce",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 114,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "addingMultipleElementsWithoutReallocation_expectedSizeIncreasesButCapacityDoesNot",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 127,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "accessingWithIndexOperator_expectedProperElementsInProperPlaces",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 141,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "copyAndMoveConstructor_expectedSuccessfulCopyAndMove",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 156,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp:189\nExpected equality of these values:\n  expectedCapacityAfterMoving\n    Which is: 0\n  v.size()\n    Which is: 3",
+              "type": ""
+            },
+            {
+              "failure": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp:190\nExpected equality of these values:\n  expectedCapacityAfterMoving\n    Which is: 0\n  v.capacity()\n    Which is: 3",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "assignmentOperatorCopyingAndMoving_expectedSuccessfulCopyAndMove",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 203,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "accessingWithIndexOperatorOutOfRange_expectedExceptionWhenOutOfRange",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 250,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest"
+        },
+        {
+          "name": "addingElementsWithReallocationNecessairy",
+          "file": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp",
+          "line": 268,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-17T18:38:26Z",
+          "time": "0s",
+          "classname": "VectorTest",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpkz7b6t1u\/student\/tests\/vectorTests.cpp:278\nExpected equality of these values:\n  v.size()\n    Which is: 3\n  v.capacity()\n    Which is: 4\ni = 2, Current: , Expected: array(3) = {",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

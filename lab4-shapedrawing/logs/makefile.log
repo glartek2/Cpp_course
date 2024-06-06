@@ -1,0 +1,12 @@
+[ 11%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 22%] Linking CXX static library ../../../lib/libgtest.a
+[ 22%] Built target gtest
+[ 33%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 44%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 44%] Built target gtest_main
+[ 55%] Building CXX object tests/CMakeFiles/tests.dir/shapesTests.cpp.o
+[ 66%] Building CXX object tests/CMakeFiles/tests.dir/__/circle.cpp.o
+[ 77%] Building CXX object tests/CMakeFiles/tests.dir/__/ShapeComposite.cpp.o
+[ 88%] Building CXX object tests/CMakeFiles/tests.dir/__/rectangle.cpp.o
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

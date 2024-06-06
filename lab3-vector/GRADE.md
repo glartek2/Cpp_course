@@ -1,0 +1,13 @@
+Dear Student,
+
+I'm happy to announce that you've managed to get **12** out of 14 points for this assignment.
+
+There still exist some issues that should be addressed before the deadline: **2024-05-11 23:50:00 CEST (+0200)**. For further details, please refer to the following list:
+
+<details><summary>Nie wszystkie testy przeszły! Oto lista tych co nie przeszły:</summary>1.&nbsp;VectorTest.copyAndMoveConstructor_expectedSuccessfulCopyAndMove<br>2.&nbsp;VectorTest.addingElementsWithReallocationNecessairy</details>
+<details><summary>Cppcheck znalazł potencjalne błędy (to narzędzie może się pomylić)</summary>/tmp/tmpkz7b6t1u/student/fraction.h:45:4:&nbsp;warning:&nbsp;Class&nbsp;'Fraction'&nbsp;has&nbsp;a&nbsp;constructor&nbsp;with&nbsp;1&nbsp;argument&nbsp;that&nbsp;is&nbsp;not&nbsp;explicit.&nbsp;[noExplicitConstructor]<br>&nbsp;&nbsp;&nbsp;Fraction(int&nbsp;numerator&nbsp;=&nbsp;0,&nbsp;int&nbsp;denominator&nbsp;=&nbsp;1);<br>&nbsp;&nbsp;&nbsp;^<br>/tmp/tmpkz7b6t1u/student/vector.h:77:5:&nbsp;warning:&nbsp;Class&nbsp;'Vector'&nbsp;has&nbsp;a&nbsp;constructor&nbsp;with&nbsp;1&nbsp;argument&nbsp;that&nbsp;is&nbsp;not&nbsp;explicit.&nbsp;[noExplicitConstructor]<br>&nbsp;&nbsp;&nbsp;&nbsp;Vector(std::size_t&nbsp;init_capacity&nbsp;=&nbsp;0);<br>&nbsp;&nbsp;&nbsp;&nbsp;^<br>/tmp/tmpkz7b6t1u/student/fraction.cpp:24:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'setDenominator'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>void&nbsp;Fraction::setDenominator(int&nbsp;denominator)<br>^<br>/tmp/tmpkz7b6t1u/student/fraction.cpp:31:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'setNumerator'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>void&nbsp;Fraction::setNumerator(int&nbsp;numerator)<br>^<br>/tmp/tmpkz7b6t1u/student/vector.cpp:43:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'size'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>std::size_t&nbsp;Vector::size()&nbsp;const<br>^<br>/tmp/tmpkz7b6t1u/student/vector.cpp:48:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'capacity'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>std::size_t&nbsp;Vector::capacity()&nbsp;const<br>^<br>/tmp/tmpkz7b6t1u/student/vector.cpp:53:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'data'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>Fraction*&nbsp;Vector::data()&nbsp;const<br>^<br>/tmp/tmpkz7b6t1u/student/vector.cpp:58:0:&nbsp;warning:&nbsp;The&nbsp;function&nbsp;'push_back'&nbsp;is&nbsp;never&nbsp;used.&nbsp;[unusedFunction]<br>void&nbsp;Vector::push_back(const&nbsp;Fraction&&nbsp;value)<br>^<br></details>
+
+-----------
+I remain your faithful servant\
+_Bobot_\
+_April 17, AD 2024, 18:38:31 (UTC)_

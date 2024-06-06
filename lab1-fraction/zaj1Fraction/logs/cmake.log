@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /tmp/tmp9s0rbkl5/student/zaj1Fraction/CMakeCache.txt is different than the directory /home/glartek/CPP_lab/lab1-fraction/zaj1Fraction where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

@@ -1,0 +1,24 @@
+/tmp/tmpkz7b6t1u/student/fraction.h:45:4: warning: Class 'Fraction' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+   Fraction(int numerator = 0, int denominator = 1);
+   ^
+/tmp/tmpkz7b6t1u/student/vector.h:77:5: warning: Class 'Vector' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Vector(std::size_t init_capacity = 0);
+    ^
+/tmp/tmpkz7b6t1u/student/fraction.cpp:24:0: warning: The function 'setDenominator' is never used. [unusedFunction]
+void Fraction::setDenominator(int denominator)
+^
+/tmp/tmpkz7b6t1u/student/fraction.cpp:31:0: warning: The function 'setNumerator' is never used. [unusedFunction]
+void Fraction::setNumerator(int numerator)
+^
+/tmp/tmpkz7b6t1u/student/vector.cpp:43:0: warning: The function 'size' is never used. [unusedFunction]
+std::size_t Vector::size() const
+^
+/tmp/tmpkz7b6t1u/student/vector.cpp:48:0: warning: The function 'capacity' is never used. [unusedFunction]
+std::size_t Vector::capacity() const
+^
+/tmp/tmpkz7b6t1u/student/vector.cpp:53:0: warning: The function 'data' is never used. [unusedFunction]
+Fraction* Vector::data() const
+^
+/tmp/tmpkz7b6t1u/student/vector.cpp:58:0: warning: The function 'push_back' is never used. [unusedFunction]
+void Vector::push_back(const Fraction& value)
+^

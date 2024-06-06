@@ -1,0 +1,37 @@
+Running main() from /tmp/tmpc_c05vis/student/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from MatrixTester
+[ RUN      ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero
+[       OK ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero (0 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied
+[       OK ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied (0 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied
+[       OK ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied (0 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied
+[       OK ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied (0 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash
+[       OK ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash (0 ms)
+[ RUN      ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream
+[       OK ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream (0 ms)
+[ RUN      ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream
+Read value: 1
+Read value: 2
+Read value: 3
+Read value: 4
+[       OK ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream (0 ms)
+[ RUN      ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied
+[       OK ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied (0 ms)
+[ RUN      ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned
+[       OK ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned (0 ms)
+[ RUN      ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned
+[       OK ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned (0 ms)
+[ RUN      ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess
+[       OK ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess (0 ms)
+[ RUN      ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions
+[       OK ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions (0 ms)
+[----------] 12 tests from MatrixTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.

@@ -1,0 +1,142 @@
+{
+  "tests": 12,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-04-02T22:50:24Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MatrixTester",
+      "tests": 12,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-04-02T22:50:24Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructionEmptyMatrix_expectedAllElementsAreZero",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 29,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 47,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "constructionMatrixFromAnotherMatrix_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 67,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "assignmentOperatorCopyingDeeply_expectedAllElementsCopied",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 88,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "assignmentOperatorCopyingFromItselve_expectedNotCrash",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 111,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "checkingOstreamOperator_expectedAllElementsInStream",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 135,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "checkingIstreamOperator_expectedAllElementsReadFromStream",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 163,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 190,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 216,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 247,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 278,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        },
+        {
+          "name": "matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions",
+          "file": "\/tmp\/tmpc_c05vis\/student\/tests\/matrixTests.cpp",
+          "line": 304,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-04-02T22:50:24Z",
+          "time": "0s",
+          "classname": "MatrixTester"
+        }
+      ]
+    }
+  ]
+}

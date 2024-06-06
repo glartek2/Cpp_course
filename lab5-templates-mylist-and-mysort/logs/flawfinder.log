@@ -1,0 +1,1 @@
+"/tmp/tmph5x_nlxa/student/mySorting.h:23:14:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). \n        std::strcpy(arr[i], temp[i].c_str());\n"

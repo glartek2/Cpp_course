@@ -1,0 +1,64 @@
+Running main() from /tmp/tmpkz7b6t1u/student/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from FractionTester
+[ RUN      ] FractionTester.constructionAndGetters_expectedValuesFromConstructorReadableByGetters
+[       OK ] FractionTester.constructionAndGetters_expectedValuesFromConstructorReadableByGetters (0 ms)
+[ RUN      ] FractionTester.settersForMembers_expectedValuesChangesWithoutReduction
+[       OK ] FractionTester.settersForMembers_expectedValuesChangesWithoutReduction (0 ms)
+[ RUN      ] FractionTester.fractionMultiplyResultFractionImpossibleForReduction_expectedSimpleMultiplyingWorking
+[       OK ] FractionTester.fractionMultiplyResultFractionImpossibleForReduction_expectedSimpleMultiplyingWorking (0 ms)
+[ RUN      ] FractionTester.fractionAdditionResultFractionImpossibleForReduction_expectedSimpleAdditionWorking
+[       OK ] FractionTester.fractionAdditionResultFractionImpossibleForReduction_expectedSimpleAdditionWorking (0 ms)
+[ RUN      ] FractionTester.settingInvalidDenominarrInConstructor_expectedThrow
+[       OK ] FractionTester.settingInvalidDenominarrInConstructor_expectedThrow (0 ms)
+[ RUN      ] FractionTester.fractionAdditionWithCommonDenominator_expectedReduction
+[       OK ] FractionTester.fractionAdditionWithCommonDenominator_expectedReduction (0 ms)
+[----------] 6 tests from FractionTester (0 ms total)
+
+[----------] 8 tests from VectorTest
+[ RUN      ] VectorTest.constructionAndGetters_expectedValuesFromConstructorReadableByGetters
+[       OK ] VectorTest.constructionAndGetters_expectedValuesFromConstructorReadableByGetters (0 ms)
+[ RUN      ] VectorTest.destructOfNotEmptyVector_expectedMemoryFreedOnce
+[       OK ] VectorTest.destructOfNotEmptyVector_expectedMemoryFreedOnce (0 ms)
+[ RUN      ] VectorTest.addingMultipleElementsWithoutReallocation_expectedSizeIncreasesButCapacityDoesNot
+[       OK ] VectorTest.addingMultipleElementsWithoutReallocation_expectedSizeIncreasesButCapacityDoesNot (0 ms)
+[ RUN      ] VectorTest.accessingWithIndexOperator_expectedProperElementsInProperPlaces
+[       OK ] VectorTest.accessingWithIndexOperator_expectedProperElementsInProperPlaces (0 ms)
+[ RUN      ] VectorTest.copyAndMoveConstructor_expectedSuccessfulCopyAndMove
+/tmp/tmpkz7b6t1u/student/tests/vectorTests.cpp:189: Failure
+Expected equality of these values:
+  expectedCapacityAfterMoving
+    Which is: 0
+  v.size()
+    Which is: 3
+/tmp/tmpkz7b6t1u/student/tests/vectorTests.cpp:190: Failure
+Expected equality of these values:
+  expectedCapacityAfterMoving
+    Which is: 0
+  v.capacity()
+    Which is: 3
+[  FAILED  ] VectorTest.copyAndMoveConstructor_expectedSuccessfulCopyAndMove (0 ms)
+[ RUN      ] VectorTest.assignmentOperatorCopyingAndMoving_expectedSuccessfulCopyAndMove
+[       OK ] VectorTest.assignmentOperatorCopyingAndMoving_expectedSuccessfulCopyAndMove (0 ms)
+[ RUN      ] VectorTest.accessingWithIndexOperatorOutOfRange_expectedExceptionWhenOutOfRange
+[       OK ] VectorTest.accessingWithIndexOperatorOutOfRange_expectedExceptionWhenOutOfRange (0 ms)
+[ RUN      ] VectorTest.addingElementsWithReallocationNecessairy
+/tmp/tmpkz7b6t1u/student/tests/vectorTests.cpp:278: Failure
+Expected equality of these values:
+  v.size()
+    Which is: 3
+  v.capacity()
+    Which is: 4
+i = 2, Current: , Expected: array(3) = {
+[  FAILED  ] VectorTest.addingElementsWithReallocationNecessairy (0 ms)
+[----------] 8 tests from VectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 12 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] VectorTest.copyAndMoveConstructor_expectedSuccessfulCopyAndMove
+[  FAILED  ] VectorTest.addingElementsWithReallocationNecessairy
+
+ 2 FAILED TESTS

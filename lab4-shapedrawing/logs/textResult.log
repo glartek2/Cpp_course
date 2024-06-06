@@ -1,0 +1,58 @@
+Running main() from /tmp/tmpi1w2eavk/student/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from RectangleTester
+[ RUN      ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
+[       OK ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate (0 ms)
+[ RUN      ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem
+[       OK ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem (0 ms)
+[ RUN      ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem
+[       OK ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem (0 ms)
+[ RUN      ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero
+[       OK ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero (0 ms)
+[----------] 4 tests from RectangleTester (0 ms total)
+
+[----------] 4 tests from CircleTester
+[ RUN      ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem
+[       OK ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
+[ RUN      ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem
+[       OK ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
+[ RUN      ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem
+[       OK ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem (0 ms)
+[ RUN      ] CircleTester.constructorOfCircleWithRadiusEqualToZero
+[       OK ] CircleTester.constructorOfCircleWithRadiusEqualToZero (0 ms)
+[----------] 4 tests from CircleTester (0 ms total)
+
+[----------] 4 tests from ShapeCompositeTester
+[ RUN      ] ShapeCompositeTester.sumOfSqhareAndCircle
+/tmp/tmpi1w2eavk/student/tests/shapesTests.cpp:319: Failure
+Failed
+Required classes not implemented not implemented!
+[  FAILED  ] ShapeCompositeTester.sumOfSqhareAndCircle (0 ms)
+[ RUN      ] ShapeCompositeTester.intersectionOfSqhareAndCircle
+/tmp/tmpi1w2eavk/student/tests/shapesTests.cpp:376: Failure
+Failed
+Required classes not implemented not implemented!
+[  FAILED  ] ShapeCompositeTester.intersectionOfSqhareAndCircle (0 ms)
+[ RUN      ] ShapeCompositeTester.differenceOfSqhareAndCircle
+/tmp/tmpi1w2eavk/student/tests/shapesTests.cpp:431: Failure
+Failed
+Required classes not implemented not implemented!
+[  FAILED  ] ShapeCompositeTester.differenceOfSqhareAndCircle (0 ms)
+[ RUN      ] ShapeCompositeTester.drawingHouse
+/tmp/tmpi1w2eavk/student/tests/shapesTests.cpp:495: Failure
+Failed
+Required classes not implemented not implemented!
+[  FAILED  ] ShapeCompositeTester.drawingHouse (0 ms)
+[----------] 4 tests from ShapeCompositeTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 8 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] ShapeCompositeTester.sumOfSqhareAndCircle
+[  FAILED  ] ShapeCompositeTester.intersectionOfSqhareAndCircle
+[  FAILED  ] ShapeCompositeTester.differenceOfSqhareAndCircle
+[  FAILED  ] ShapeCompositeTester.drawingHouse
+
+ 4 FAILED TESTS

@@ -1,0 +1,51 @@
+==162== Memcheck, a memory error detector
+==162== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==162== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==162== Command: /tmp/tmpc_c05vis/student/build//bin/tests
+==162== 
+Running main() from /tmp/tmpc_c05vis/student/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from MatrixTester
+[ RUN      ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero
+[       OK ] MatrixTester.constructionEmptyMatrix_expectedAllElementsAreZero (18 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied
+[       OK ] MatrixTester.constructionMatrixFromTwoDimensionArray_expectedAllElementsCopied (3 ms)
+[ RUN      ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied
+[       OK ] MatrixTester.constructionMatrixFromAnotherMatrix_expectedAllElementsCopied (3 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied
+[       OK ] MatrixTester.assignmentOperatorCopyingDeeply_expectedAllElementsCopied (3 ms)
+[ RUN      ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash
+[       OK ] MatrixTester.assignmentOperatorCopyingFromItselve_expectedNotCrash (3 ms)
+[ RUN      ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream
+[       OK ] MatrixTester.checkingOstreamOperator_expectedAllElementsInStream (10 ms)
+[ RUN      ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream
+Read value: 1
+Read value: 2
+Read value: 3
+Read value: 4
+[       OK ] MatrixTester.checkingIstreamOperator_expectedAllElementsReadFromStream (18 ms)
+[ RUN      ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied
+[       OK ] MatrixTester.multiplicationMatrixMultipliedWithNumber_expectedAllElementsOfMatrixMultiplied (3 ms)
+[ RUN      ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned
+[       OK ] MatrixTester.additionOfTwoMatrixes_expectedMatrixWithSumOfElementsReturned (5 ms)
+[ RUN      ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned
+[       OK ] MatrixTester.andOfTwoMatrixes_expectedMatrixWithAllElementsAsResultOfLogicalAndReturned (6 ms)
+[ RUN      ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess
+[       OK ] MatrixTester.accessingMatrixByRowAndColumnWithIndexOperator_expectedSuccesfullAccess (3 ms)
+[ RUN      ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions
+[       OK ] MatrixTester.matrixConverseOperatorIntoSizeType_expected2ReturnElementsInEachDimentions (2 ms)
+[----------] 12 tests from MatrixTester (96 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (153 ms total)
+[  PASSED  ] 12 tests.
+==162== 
+==162== HEAP SUMMARY:
+==162==     in use at exit: 0 bytes in 0 blocks
+==162==   total heap usage: 345 allocs, 345 frees, 133,507 bytes allocated
+==162== 
+==162== All heap blocks were freed -- no leaks are possible
+==162== 
+==162== For lists of detected and suppressed errors, rerun with: -s
+==162== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
